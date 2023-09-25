@@ -1,6 +1,6 @@
 {
     "name": "growcode/module-create-account-after-place-order",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "N/A",
     "type": "magento2-module",
     "require": {

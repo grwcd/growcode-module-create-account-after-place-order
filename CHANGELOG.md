@@ -4,6 +4,10 @@ All notable changes to this module SHOULD be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2023-09-25
+### Fixed
+- composer/module version
+
 ## [1.0.2] - 2023-09-25
 ### Fixed
 - required php versions
