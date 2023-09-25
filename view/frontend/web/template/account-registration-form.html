@@ -1,0 +1,33 @@
+<!-- ko ifnot: isCustomerLoggedIn && isPasswordVisible  -->
+<form class="form form-new-account-registration"
+      id="co-account-registration-form"
+      data-bind="attr: {'data-hasrequired': $t('* Required Fields')}">
+    <fieldset class="fieldset">
+        <div class="field choice">
+            <input class="form-checkbox"
+                   type="checkbox"
+                   id="new_account_registration"
+                   data-bind="checked: isFormVisible"
+                   name="account-registration"/>
+            <label for="new_account_registration">
+                <!-- ko i18n: 'I want to create an account (your login will be your e-mail address)' --><!-- /ko -->
+            </label>
+        </div>
+        <!-- ko if: isFormVisible -->
+            <div class="field">
+                <label class="label" for="new_account_password">
+                    <!-- ko i18n: 'Password' --><!-- /ko -->
+                </label>
+                <div class="control">
+                    <input class="input-text"
+                           type="password"
+                           name="password"
+                           id="new_account_password"
+                           required="required"
+                           autocomplete="off"/>
+                </div>
+            </div>
+        <!--/ko-->
+    </fieldset>
+</form>
+<!--/ko-->

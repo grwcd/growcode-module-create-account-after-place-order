@@ -1,0 +1,21 @@
+{
+    "name": "growcode/module-create-acount-after-place-order",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "php": "~8.1.0",
+        "magento/product-community-edition": "2.4.6-p1"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Growcode\\CreateAccountAfterPlaceOrder\\": ""
+        }
+    }
+}
