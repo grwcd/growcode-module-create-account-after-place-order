@@ -7,7 +7,7 @@ define([
         initObservable: function () {
             this._super();
 
-            email.isExist(this.isPasswordVisible);
+            email.isExist(this.isPasswordVisible());
 
             this.isPasswordVisible.subscribe(function (value) {
                 email.isExist(value)

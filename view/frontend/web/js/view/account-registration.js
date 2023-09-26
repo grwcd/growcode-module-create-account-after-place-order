@@ -19,6 +19,8 @@ define([
         initObservable: function () {
             this._super().observe(['isFormVisible', 'isPasswordVisible']);
 
+            this.isPasswordVisible(email.isExist());
+
             email.isExist.subscribe(function(value) {
                 this.isPasswordVisible(value);
             }.bind(this));
