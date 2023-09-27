@@ -4,7 +4,7 @@
 Customer have possibility to create account after place order. Customer can set password for account which will be create after place order. 
 
 ## Installation
- - `composer config repositories.growcode/module-create-account-after-place-order vcs git@bitbucket.org:conversion-ecommerce-development/growcode-module-create-account-after-place-order.git`
+ - `composer config repositories.growcode/module-create-account-after-place-order github git@github.com:grwcd/growcode-module-create-account-after-place-order.git`
  - `composer req growcode/module-create-account-after-place-order`
  - `bin/magento setup:upgrade`
 
